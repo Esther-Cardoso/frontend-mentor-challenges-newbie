@@ -1,0 +1,42 @@
+:root {
+  --bg: #D5E1EF;
+  --color-title: #1F314F;
+  --color-text: #68778D;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.container-card {
+  width: 100%;
+  height: 100vh;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  background: var(--white);
+  width: 320px;
+  height: 500px;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-top: 24px;
+  color: var(--color-title);
+  font-size: 1.375rem;
+}
+
+.card p {
+  color: var(--color-text);
+  margin-top: 16px;
+}
