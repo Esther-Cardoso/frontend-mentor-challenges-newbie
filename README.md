@@ -6,7 +6,7 @@ Estou criando estes projetos como parte do meu aprendizado, e também para compa
 
 Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 
-## Links
+## Projetos
 - [Blog preview card](#blog-preview-card)
 - [QR Code Component](#qr-code-component)
 
@@ -14,7 +14,7 @@ Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 ![Blog preview card](./blog-preview-card/blog-preview-card.jpg)
 - [Clique aqui para ver o site](https://blog-preview-card-esther.netlify.app/)
 
-## Blog preview card <a name="qr-code-component"></a>
+## QR Code Component <a name="qr-code-component"></a>
 ![QR Code Component](./qr-code-component/qr-code-readme.png)
 - [Clique aqui para ver o site](https://qr-code-component-esther.netlify.app/)
 
