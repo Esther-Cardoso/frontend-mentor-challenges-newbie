@@ -7,16 +7,21 @@ Estou criando estes projetos como parte do meu aprendizado, e também para compa
 Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 
 ## Projetos
-- [Blog preview card](#blog-preview-card)
+- [Blog Preview Card](#blog-preview-card)
 - [QR Code Component](#qr-code-component)
+- [NFT Preview Card Component](#nft-preview-card-component)
 
-## Blog preview card <a name="blog-preview-card"></a>
+## Blog Preview Card <a name="blog-preview-card"></a>
 ![Blog preview card](./blog-preview-card/blog-preview-card.jpg)
 - [Clique aqui para ver o site](https://blog-preview-card-esther.netlify.app/)
 
 ## QR Code Component <a name="qr-code-component"></a>
 ![QR Code Component](./qr-code-component/qr-code-readme.png)
 - [Clique aqui para ver o site](https://qr-code-component-esther.netlify.app/)
+
+## NFT Preview Card Component <a name="nft-preview-card-component"></a>
+![NFT Preview Card Component](./nft-preview-card-component/nft-readme.png)
+- [Clique aqui para ver o site](https://nft-preview-card-component-esther.netlify.app/)
 
 
 ## Autor
