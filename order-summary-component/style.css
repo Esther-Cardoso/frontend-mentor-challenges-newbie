@@ -24,16 +24,17 @@ body {
   width: 300px;
   border-radius: 20px;
   text-align: center;
+  overflow: hidden;
 }
 
 .card .img-header {
   width: 100%;
-  border-radius: 20px 20px 0 0;
 }
 
 .card h2 {
   color: #1f2f56; 
   margin: 20px 0;
+  font-size: 22px;
 }
 
 .card p {
@@ -43,30 +44,77 @@ body {
 }
 
 .card .price {
-  display: flex;
+  display: flex; 
   align-items: center;
+  justify-content: space-between;
+  gap: 10px; 
+  font-size: 14px;
+  font-weight: bold;
   background: hsl(225, 100%, 98%);
-  margin: 0px 20px 20px;
-  border-radius: 5px;
+  border-radius: 10px; 
+  width: 90%;
+  height: auto; 
+  margin: 0 auto 20px; 
+  padding: 10px;
+}
+
+.price img {
+  flex-shrink: 0; 
+  width: 40px; 
+  height: 40px;
+}
+
+.price .price-info {
+  text-align: left; 
+}
+
+.price .price-info span {
+  display: block;
+  font-size: 14px;
+  color: #1f2f56; 
+  font-weight: bolder;
+}
+
+.price .price-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #7280a7;
+  font-weight: normal;
+}
+
+.price a:hover {
+  text-decoration: none;
+  color: #7280a7;
 }
 
 .card button {
-  background: #3829e0;
+  background: rgb(56, 41, 224);
   color: #fff;
-
   width: 86%;
-  padding: 15px 0px;
+  padding: 10px 0px;
   border: none;
   border-radius: 6px;
   font-weight: bold;
-
   margin: 0 20px 20px;
+  cursor: pointer;
+  box-shadow: 0px 15px 10px 0px #e0e8ff;
+  transition: .3s ease-in-out;
+}
+
+.card button:hover {
+  background: rgba(56, 41, 224, 0.7);
 }
 
 .card .cancel {
   display: block;
   color: #7280a7;
+  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 30px;
+  transition: .3s ease-in-out;
+}
+
+.card .cancel:hover {
+  color: #1f2f56;
 }
