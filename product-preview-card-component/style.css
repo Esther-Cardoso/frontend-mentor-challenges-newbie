@@ -1,0 +1,55 @@
+:root {
+  --primary-color: hsl(158, 36%, 37%);
+  --bg-color: #f2ebe3;
+  --title-color: #1c232b;
+  --paragraph-color: #6b718a;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+main {
+  background: var(--bg-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--white-color);
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 0 0 10px;
+}
+
+.product-info {
+  padding: 40px;
+}
+
+.product-info span {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+}
+
