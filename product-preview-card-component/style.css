@@ -1,5 +1,5 @@
 :root {
-  --primary-color: hsl(158, 36%, 37%);
+  --primary-color: #3c8067;
   --bg-color: #f2ebe3;
   --title-color: #1c232b;
   --paragraph-color: #6b718a;
@@ -42,14 +42,71 @@ main {
 }
 
 .product-info {
-  padding: 40px;
+  padding: 30px;
 }
 
 .product-info span {
   text-transform: uppercase;
+  color: var(--paragraph-color);
+  letter-spacing: 0.3125rem; /* 5px */
+  font-size: 0.75rem;
 }
 
-h2 {
+.product-info h2 {
   font-family: "Fraunces", serif;
+  font-size: 32px;
+  color: var(--title-color);
+  line-height: 1;
+  margin: 20px 0;
 }
 
+.product-info p {
+  color: var(--paragraph-color);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.price p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-family: "Fraunces", serif;
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.price span {
+  text-decoration: line-through;
+  font-weight: initial;
+  letter-spacing: initial;
+  font-size: 0.875rem;
+}
+
+.card button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.card button img {
+  height: 18px;
+}
+
+.card button p {
+  color: var(--white-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1; 
+}
