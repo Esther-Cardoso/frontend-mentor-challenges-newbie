@@ -11,6 +11,7 @@ Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 - [QR Code Component](#qr-code-component)
 - [NFT Preview Card Component](#nft-preview-card-component)
 - [Order Summary Component](#order-summary-component)
+- [Product Preview Card Component](#product-preview-card-component)
 
 ## Blog Preview Card <a name="blog-preview-card"></a>
 ![Blog preview card](./blog-preview-card/blog-preview-card.jpg)
@@ -27,6 +28,10 @@ Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 ## Order Summary Component <a name="order-summary-component"></a>
 ![Order Summary Component](./order-summary-component/order-summary-readme.png)
 - [Clique aqui para ver o site](https://order-summary-component-esther.netlify.app/)
+
+## Product Preview Card Component <a name="product-preview-card-component"></a>
+![Product Preview Card Component](./product-preview-card-component/product-preview-readme.png)
+- [Clique aqui para ver o site](https://product-preview-card-component-esther.netlify.app/)
 
 ## Autor
 <a href="https://www.instagram.com/_esther_cardoso/">
