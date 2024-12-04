@@ -87,9 +87,6 @@
 }
 
 @media (max-width: 420px) {
-  .container-card {
-    background-color: red;
-  }
   .card {
     width: 327px;
   }
