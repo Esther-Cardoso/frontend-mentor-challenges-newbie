@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container enviado">
+    <img src="./img/illustration-thank-you.svg" alt="">
+    <div class="selecionado"></div>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+  </div>
+
+  <script>
+    const resultado = document.querySelector('.selecionado');
+    const nota = localStorage.getItem('nota');
+
+    if (nota) resultado.innerHTML = `You selected ${nota} out of 5`;
+  </script>
+</body>
+
+</html>
