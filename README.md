@@ -49,7 +49,7 @@ Sinta-se à vontade para explorar, sugerir melhorias ou deixar um feedback. 🚀
 
 ![Product Preview Card Component](./interactive-rating-component/img-readme.png)
 
-- [Clique aqui para ver o site](https://interactive-rating-component.netlify.app/)
+- [Clique aqui para ver o site](https://interactive-rating-component-esther.netlify.app/)
 
 ## Autor
 

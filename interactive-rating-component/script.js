@@ -20,7 +20,7 @@ function enviar(e) {
   }
 
   localStorage.setItem('nota', numeroSelecionado);
-  window.location.href = `https://interactive-rating-component.netlify.app/interactive-rating-component/enviado.html`;
+  window.location.href = `https://interactive-rating-component-esther.netlify.app/interactive-rating-component/enviado.html`;
 }
 
 buttonSubmit.addEventListener('click', enviar);
